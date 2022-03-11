@@ -1,0 +1,21 @@
+.priceTittle{
+    font-size: var(---font-size-first);
+    color: var(---clr-primary);
+    padding-top: 20px;
+  }
+.inerTitel{
+    color: var(---clr-primary);
+    font-size: var(---font-size-third);
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+.inerPrice{
+    color: var(---clr-secondary);
+    font-size: var(---font-size-second);
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.inerPera{
+    color: var(---clr-third);
+    padding-bottom: 1rem;
+}

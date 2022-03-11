@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+:root{
+    ---clr-primary: rgb(70, 70, 71);
+    ---clr-secondary: rgb(102, 71, 243);
+    ---clr-third: rgb(128, 128, 128);
+    ---clr-border: rgb(194, 194, 194);
+}
+:root{
+    ---font-size-first: 3.5rem;
+    ---font-size-second: 2rem;
+    ---font-size-third: 1.5rem;
+
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.pricing-table .row{
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-table .row .col{
+    flex: 1;
+    text-align: center;
+}
+.pricing-table .row .col.title{
+    flex-grow: 2;
+    text-align: left;
+}
+/* element */
+.col {
+    color: rgb(102 71 243);
+}
+.table-title{
+    color: var(---clr-third);
+}
+.row-table{
+    border-bottom: 1px solid var(---clr-border);
+    padding: 0.6rem 0;
+}
+.last{
+    padding: 0.6rem 0;
+}
+.fa-check{
+    color: var(---clr-secondary);
+    font-size: 1.5rem;
+}
+.buton{
+    padding-top: 1rem;
+}
+.btn{
+    color: var(---clr-secondary);
+    text-decoration: none;
+    font-weight: 900;
+}
+button{
+    text-decoration: none;
+    color: white;
+    background-color: var(---clr-secondary);
+    font-weight: 900;
+    padding: 5px 25px;
+    border: white;
+    border-radius: 15px;
+}
+/* media */
+@media (max-width:768px) {
+    :root{
+        ---font-size-first: 1.5rem;
+        ---font-size-second: 2rem;
+        ---font-size-third: 1rem;
+    }
+    button{
+        text-decoration: none;
+        color: var(---clr-secondary);
+        background-color: white;
+        font-weight: 900;
+        padding: 0x 0px;
+        border-radius: 0px;
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+        color: var(---clr-secondary);
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 10px;
+    }
+}

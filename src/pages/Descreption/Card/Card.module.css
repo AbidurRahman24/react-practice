@@ -1,0 +1,31 @@
+.col {
+    border: 1px solid var(---clr--six);
+    border-radius: 9px;
+    padding: 10px 10px 45px 10px;
+    flex: 1 1 30%;
+    text-align: start;
+}
+.i{
+    font-size: 1.5rem;
+    color: var(---clr--secondary);
+    padding: 5px 10px;
+    background-color: var(---clr--five);
+}
+.icon {
+    padding: 25px 10px;
+}
+.header {
+    color: var(---clr--third);
+    padding: 5px 10px;
+}
+.desc {
+    color: var(---clr--fourth);
+    padding: 5px 10px;
+  }
+.col:hover {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-color: transparent;
+    cursor: pointer;
+  }

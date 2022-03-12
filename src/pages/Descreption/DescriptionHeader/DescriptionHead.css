@@ -1,0 +1,14 @@
+.item{
+    padding-bottom: 4rem;
+  }
+.desciptionHead {
+    text-align: center;
+    font-size: 3.2rem;
+    color: var(---clr--third);
+    padding-bottom: 1rem;
+}
+.desc {
+    text-align: center;
+    color: var(---clr--fourth);
+    padding-bottom: 0.2rem;
+  }

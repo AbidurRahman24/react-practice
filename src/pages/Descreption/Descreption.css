@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+:root {
+  ---clr--primary: rgba(228, 125, 84, 0.037);
+  ---clr--secondary: rgb(238, 94, 11);
+  ---clr--third: rgb(20, 19, 19);
+  ---clr--fourth: rgb(59, 59, 59);
+  ---clr--five: rgba(236, 131, 82, 0.212);
+  ---clr--six: rgba(212, 212, 212, 0.384);
+  ---clr--box: #fff;
+}
+.descreption {
+  padding-top: 2rem;
+  background-color: var(---clr--primary);
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+@media (max-width: 640px) {
+  .row {
+    flex-direction: column;
+  }
+  .descreption-hed {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .col {
+    flex: 1 1 45%;
+  }
+}

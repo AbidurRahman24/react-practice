@@ -1,12 +1,9 @@
-import './App.css';
-import Descreption from './pages/Descreption/Descreption';
-import Price from './pages/Price/Price';
+import About from './pages/About/About';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Price></Price> */}
-      <Descreption />
+    <div>
+      <About />
     </div>
   );
 }

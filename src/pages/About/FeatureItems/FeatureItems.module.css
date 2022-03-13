@@ -32,7 +32,7 @@
   .feature__item:hover::before {
     border-color: #c9d2d6;
   }
-  .feature__item__icon i {
+  .feature__item__icon ,.i {
     font-size: 3.5rem;
     color: #28b5ff;
     margin-right: 10px;

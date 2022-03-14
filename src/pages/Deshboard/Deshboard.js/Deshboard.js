@@ -1,8 +1,6 @@
 import React from 'react';
-import DateTime from '../DateTime/DateTime';
 import ModalSection from '../Modal/ModalSection';
 import SideBar from '../SideBar/SideBar';
-import Status from '../Status/Status';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';

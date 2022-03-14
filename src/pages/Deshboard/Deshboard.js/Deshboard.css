@@ -1,0 +1,11 @@
+.div1 { grid-area: menu; }
+.div2 { grid-area: main; }
+.div3 { grid-area: right; }
+.container {
+    display: grid;
+    grid-template-areas:
+      'menu main main right right';
+    gap: 10px;
+    padding: 10px;
+  }
+  

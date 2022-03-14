@@ -1,9 +1,10 @@
-import About from './pages/About/About';
+import React from 'react';
+import Deshboard from "./pages/Deshboard/Deshboard.js/Deshboard";
 
 function App() {
   return (
     <div>
-      <About />
+      <Deshboard />
     </div>
   );
 }

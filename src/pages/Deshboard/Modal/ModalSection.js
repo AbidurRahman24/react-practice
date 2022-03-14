@@ -31,14 +31,14 @@ const ModalSection = () => {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <h1>React modal</h1>
-            <Button onClick={()=> setIsOpen(true)} variant="contained">Open Modal</Button>
+            <h1>Admin Status</h1>
+            <Button onClick={()=> setIsOpen(true)} variant="contained">Admin Modal</Button>
             <Modal 
             isOpen={modalIsOpen} 
             onRequestClose={()=> setIsOpen(false)}
             style={customStyles}
             >
-                <h2>React modal</h2>
+                <h2>Admin Status</h2>
                 <Seleted />
                <div style={{margin: "15px 0px" }}>
                <LocalizationProvider dateAdapter={AdapterDateFns}>

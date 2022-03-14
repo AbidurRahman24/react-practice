@@ -7,7 +7,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import SearchBar from '../Menu/SearchBar';
 import './SideBar.css'
 export default function SideBar() {
@@ -20,10 +20,10 @@ export default function SideBar() {
       >
         <SearchBar />
         <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+          {['Order 1', 'Order 2', 'Order 3', 'Order 4'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                {index % 2 === 0 ? <LocalGroceryStoreIcon /> : <LocalGroceryStoreIcon />}
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>

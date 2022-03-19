@@ -1,6 +1,4 @@
-import React from 'react';
-import Profile from './pages/Profile';
-
+import Profile from '../src/pages/Profile/Profile'
 function App() {
   return (
     <div>

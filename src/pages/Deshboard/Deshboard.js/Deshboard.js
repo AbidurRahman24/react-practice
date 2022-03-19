@@ -7,6 +7,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import './Deshboard.css'
 import AdminTable from '../AdminTable/AdminTable';
+import Profile from '../../Profile';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -26,21 +27,10 @@ const Deshboard = () => {
         <SideBar />
         </Grid>
         <Grid item xs={9}>
-          <AdminTable />
+          <Profile />
         </Grid>
       </Grid>
     </Box>
-         {/* <div className='container'>
-            <div className='div1'>
-                <SideBar />
-            </div>
-            <div className='div2'>
-                <Status />
-            </div>
-            <div className='div3'>
-                <DateTime />
-            </div>
-        </div> */}
         <ModalSection />
         </>
 

@@ -1,10 +1,11 @@
 import React from 'react';
-import Deshboard from "./pages/Deshboard/Deshboard.js/Deshboard";
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <div>
-      <Deshboard />
+      {/* <Deshboard /> */}
+      <Profile />
     </div>
   );
 }

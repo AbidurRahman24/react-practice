@@ -1,9 +1,11 @@
-import Profile from '../src/pages/Profile/Profile'
+
+import DragDrop from "./pages/DragDrop/DragDrop";
+import NotFound from './pages/NotFound/404'
 function App() {
   return (
     <div>
-      {/* <Deshboard /> */}
-      <Profile />
+      {/* <DragDrop /> */}
+      <NotFound />
     </div>
   );
 }
